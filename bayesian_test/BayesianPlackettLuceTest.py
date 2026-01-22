@@ -14,9 +14,9 @@ import matplotlib.pyplot as plt
 from scipy import stats
 from typing import Optional
 from datetime import datetime
-from bayesian_test.AbstractBayesian import AbstractBayesian
-from utils.plotting import plot_boxplot, plot_posterior_predictive_check
-from bayesian_test.utils import print_result, posterior_predictive_check_metrics, calculate_statistics
+from bayesian.bayesian_test.AbstractBayesian import AbstractBayesian
+from bayesian.utils.plotting import plot_boxplot, plot_posterior_predictive_check
+from bayesian.bayesian_test.utils import print_result, posterior_predictive_check_metrics, calculate_statistics
 
 
 class BayesianPlackettLuceTest(AbstractBayesian):

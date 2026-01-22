@@ -13,9 +13,9 @@ import matplotlib.pyplot as plt
 from typing import Optional
 from datetime import datetime
 from scipy.stats import dirichlet
-from bayesian_test.AbstractBayesian import AbstractBayesian
-from utils.plotting import plot_simplex, plot_histogram, plot_posterior_predictive_check
-from bayesian_test.utils import print_result, posterior_predictive_check_metrics, calculate_statistics
+from bayesian.bayesian_test.AbstractBayesian import AbstractBayesian
+from bayesian.utils.plotting import plot_simplex, plot_histogram, plot_posterior_predictive_check
+from bayesian.bayesian_test.utils import print_result, posterior_predictive_check_metrics, calculate_statistics
 
 
 def calculate_region_prob(s: float, col: str) -> float:
